@@ -1,7 +1,7 @@
 ﻿سلام دنیا
 ===
 
-این یک نوشتار آزمایشی برای نمایش قابلیتهای [مارک داون](https://daringfireball.net/projects/markdown/) است.
+این یک نوشتار آزمایشی برای نمایش قابلیتهای [مارک داون](//daringfireball.net/projects/markdown/) است.
 
 یک لیست
 ---
@@ -26,5 +26,5 @@ alert("Hello World")
 
 و اضافه کردن لینک ها
 ---
-- [بنیاد نرم افزار آزاد](https://www.fsf.org/)
-- [بنیاد گنو](https://www.gnu.org)
+- [بنیاد نرم افزار آزاد](//www.fsf.org/)
+- [بنیاد گنو](//www.gnu.org)

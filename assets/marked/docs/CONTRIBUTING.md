@@ -11,7 +11,7 @@
 
 ## Design principles
 
-Marked tends to favor following the SOLID set of software design and development principles; mainly the [single responsibility](https://en.wikipedia.org/wiki/Single_responsibility_principle) and [open/closed principles](https://en.wikipedia.org/wiki/Open/closed_principle):
+Marked tends to favor following the SOLID set of software design and development principles; mainly the [single responsibility](//en.wikipedia.org/wiki/Single_responsibility_principle) and [open/closed principles](//en.wikipedia.org/wiki/Open/closed_principle):
 
 - **Single responsibility:** Marked, and the components of Marked, have the single responsibility of converting Markdown strings into HTML.
 - **Open/closed:** Marked favors giving developers the means to easily extend the library and its components over changing Marked's behavior through configuration options.
@@ -41,7 +41,7 @@ We try to write test cases to validate output (writing tests based on the [suppo
 |/test/new     |Tests not related to the original `markdown.pl`.    |
 |/test/original|Tests validating against the original `markdown.pl`.|
 
-If your test uses features or options, assuming `gfm` is set to `false`, for example, you can add [front-matter](https://www.npmjs.com/package/front-matter) to the top of
+If your test uses features or options, assuming `gfm` is set to `false`, for example, you can add [front-matter](//www.npmjs.com/package/front-matter) to the top of
 your `.md` file
 
 ``` yml

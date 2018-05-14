@@ -74,7 +74,7 @@ $clearElem.addEventListener('click', function () {
 }, false);
 
 function searchToObject() {
-  // modified from https://stackoverflow.com/a/7090123/806777
+  // modified from //stackoverflow.com/a/7090123/806777
   var pairs = location.search.slice(1).split('&');
   var obj = {};
 

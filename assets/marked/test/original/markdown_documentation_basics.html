@@ -190,23 +190,23 @@ text you want to turn into a link.</p>
 <p>Inline-style links use parentheses immediately after the link text.
 For example:</p>
 
-<pre><code>This is an [example link](https://example.com/).
+<pre><code>This is an [example link](//example.com/).
 </code></pre>
 
 <p>Output:</p>
 
-<pre><code>&lt;p&gt;This is an &lt;a href="https://example.com/"&gt;
+<pre><code>&lt;p&gt;This is an &lt;a href="//example.com/"&gt;
 example link&lt;/a&gt;.&lt;/p&gt;
 </code></pre>
 
 <p>Optionally, you may include a title attribute in the parentheses:</p>
 
-<pre><code>This is an [example link](https://example.com/ "With a Title").
+<pre><code>This is an [example link](//example.com/ "With a Title").
 </code></pre>
 
 <p>Output:</p>
 
-<pre><code>&lt;p&gt;This is an &lt;a href="https://example.com/" title="With a Title"&gt;
+<pre><code>&lt;p&gt;This is an &lt;a href="//example.com/" title="With a Title"&gt;
 example link&lt;/a&gt;.&lt;/p&gt;
 </code></pre>
 
@@ -216,16 +216,16 @@ you define elsewhere in your document:</p>
 <pre><code>I get 10 times more traffic from [Google][1] than from
 [Yahoo][2] or [MSN][3].
 
-[1]: https://google.com/        "Google"
-[2]: https://search.yahoo.com/  "Yahoo Search"
-[3]: https://search.msn.com/    "MSN Search"
+[1]: //google.com/        "Google"
+[2]: //search.yahoo.com/  "Yahoo Search"
+[3]: //search.msn.com/    "MSN Search"
 </code></pre>
 
 <p>Output:</p>
 
-<pre><code>&lt;p&gt;I get 10 times more traffic from &lt;a href="https://google.com/"
-title="Google"&gt;Google&lt;/a&gt; than from &lt;a href="https://search.yahoo.com/"
-title="Yahoo Search"&gt;Yahoo&lt;/a&gt; or &lt;a href="https://search.msn.com/"
+<pre><code>&lt;p&gt;I get 10 times more traffic from &lt;a href="//google.com/"
+title="Google"&gt;Google&lt;/a&gt; than from &lt;a href="//search.yahoo.com/"
+title="Yahoo Search"&gt;Yahoo&lt;/a&gt; or &lt;a href="//search.msn.com/"
 title="MSN Search"&gt;MSN&lt;/a&gt;.&lt;/p&gt;
 </code></pre>
 
@@ -235,13 +235,13 @@ numbers and spaces, but are <em>not</em> case sensitive:</p>
 <pre><code>I start my morning with a cup of coffee and
 [The New York Times][NY Times].
 
-[ny times]: https://www.nytimes.com/
+[ny times]: //www.nytimes.com/
 </code></pre>
 
 <p>Output:</p>
 
 <pre><code>&lt;p&gt;I start my morning with a cup of coffee and
-&lt;a href="https://www.nytimes.com/"&gt;The New York Times&lt;/a&gt;.&lt;/p&gt;
+&lt;a href="//www.nytimes.com/"&gt;The New York Times&lt;/a&gt;.&lt;/p&gt;
 </code></pre>
 
 <h3>Images</h3>

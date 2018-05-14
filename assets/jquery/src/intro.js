@@ -1,13 +1,13 @@
 /*!
  * jQuery JavaScript Library v@VERSION
- * https://jquery.com/
+ * //jquery.com/
  *
  * Includes Sizzle.js
- * https://sizzlejs.com/
+ * //sizzlejs.com/
  *
  * Copyright 2005, 2014 jQuery Foundation, Inc. and other contributors
  * Released under the MIT license
- * https://jquery.org/license
+ * //jquery.org/license
  *
  * Date: @DATE
  */

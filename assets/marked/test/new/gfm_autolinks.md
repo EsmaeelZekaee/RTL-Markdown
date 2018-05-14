@@ -1,16 +1,16 @@
-link with . https://example.com/hello-world.
+link with . //example.com/hello-world.
 
-link with ! https://example.com/hello-world!
+link with ! //example.com/hello-world!
 
-link with : https://example.com/hello-world:
+link with : //example.com/hello-world:
 
-link with , https://example.com/hello-world,
+link with , //example.com/hello-world,
 
-link with ; https://example.com/hello-world;
+link with ; //example.com/hello-world;
 
-link with ) https://example.com/hello-world)
+link with ) //example.com/hello-world)
 
-link with nothing https://example.com/hello-world
+link with nothing //example.com/hello-world
 
 ### Example 597
 
@@ -56,9 +56,9 @@ www.commonmark.org/he<lp
 
 ### Example 604
 
-https://commonmark.org
+//commonmark.org
 
-(Visit https://encrypted.google.com/search?q=Markup+(business))
+(Visit //encrypted.google.com/search?q=Markup+(business))
 
 Anonymous FTP is available at ftp://foo.bar.baz.
 

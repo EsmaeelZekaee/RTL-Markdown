@@ -7,11 +7,11 @@ Here are some valid autolinks:
 
 ### Example 565
 
-<https://foo.bar.baz>
+<//foo.bar.baz>
 
 ### Example 566
 
-<https://foo.bar.baz/test?q=hello&id=22&boolean>
+<//foo.bar.baz/test?q=hello&id=22&boolean>
 
 ### Example 567
 
@@ -35,7 +35,7 @@ Note that many strings that count as absolute URIs for purposes of this spec are
 
 ### Example 571
 
-<https://../>
+<//../>
 
 ### Example 572
 
@@ -45,13 +45,13 @@ Note that many strings that count as absolute URIs for purposes of this spec are
 
 Spaces are not allowed in autolinks:
 
-<https://foo.bar/baz bim>
+<//foo.bar/baz bim>
 
 ### Example 574
 
 Backslash-escapes do not work inside autolinks:
 
-<https://example.com/\[\>
+<//example.com/\[\>
 
 Examples of email autolinks:
 
@@ -77,7 +77,7 @@ These are not autolinks:
 
 ### Example 579
 
-< https://foo.bar >
+< //foo.bar >
 
 ### Example 580
 
@@ -89,7 +89,7 @@ These are not autolinks:
 
 ### Example 582
 
-https://example.com
+//example.com
 
 ### Example 583
 

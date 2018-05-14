@@ -1,4 +1,4 @@
-[test]: https://google.com/ "Google"
+[test]: //google.com/ "Google"
 
 # A heading
 

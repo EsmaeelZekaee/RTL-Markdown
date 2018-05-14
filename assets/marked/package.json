@@ -7,9 +7,9 @@
   "bin": "./bin/marked",
   "man": "./man/marked.1",
   "repository": "git://github.com/markedjs/marked.git",
-  "homepage": "https://marked.js.org",
+  "homepage": "//marked.js.org",
   "bugs": {
-    "url": "https://github.com/markedjs/marked/issues"
+    "url": "//github.com/markedjs/marked/issues"
   },
   "license": "MIT",
   "keywords": [

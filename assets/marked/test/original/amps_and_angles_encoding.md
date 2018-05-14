@@ -21,5 +21,5 @@ Here's an inline [link](/script?foo=1&bar=2).
 Here's an inline [link](</script?foo=1&bar=2>).
 
 
-[1]: https://example.com/?foo=1&bar=2
-[2]: https://att.com/  "AT&T"
+[1]: //example.com/?foo=1&bar=2
+[2]: //att.com/  "AT&T"

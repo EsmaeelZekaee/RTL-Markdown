@@ -1,13 +1,13 @@
-Link: <https://example.com/>.
+Link: <//example.com/>.
 
-With an ampersand: <https://example.com/?foo=1&bar=2>
+With an ampersand: <//example.com/?foo=1&bar=2>
 
 * In a list?
-* <https://example.com/>
+* <//example.com/>
 * It should.
 
-> Blockquoted: <https://example.com/>
+> Blockquoted: <//example.com/>
 
-Auto-links should not occur here: `<https://example.com/>`
+Auto-links should not occur here: `<//example.com/>`
 
-	or here: <https://example.com/>
+	or here: <//example.com/>

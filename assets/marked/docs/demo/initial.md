@@ -32,5 +32,5 @@ It's easy.  It's not overly bloated, unlike HTML.  Also, as the creator of [mark
 Ready to start writing?  Either start changing stuff on the left or
 [clear everything](?text=) with a simple click.
 
-[Marked]: https://github.com/markedjs/marked/
-[Markdown]: https://daringfireball.net/projects/markdown/
+[Marked]: //github.com/markedjs/marked/
+[Markdown]: //daringfireball.net/projects/markdown/

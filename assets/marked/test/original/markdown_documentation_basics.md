@@ -197,20 +197,20 @@ text you want to turn into a link.
 Inline-style links use parentheses immediately after the link text.
 For example:
 
-    This is an [example link](https://example.com/).
+    This is an [example link](//example.com/).
 
 Output:
 
-    <p>This is an <a href="https://example.com/">
+    <p>This is an <a href="//example.com/">
     example link</a>.</p>
 
 Optionally, you may include a title attribute in the parentheses:
 
-    This is an [example link](https://example.com/ "With a Title").
+    This is an [example link](//example.com/ "With a Title").
 
 Output:
 
-    <p>This is an <a href="https://example.com/" title="With a Title">
+    <p>This is an <a href="//example.com/" title="With a Title">
     example link</a>.</p>
 
 Reference-style links allow you to refer to your links by names, which
@@ -219,15 +219,15 @@ you define elsewhere in your document:
     I get 10 times more traffic from [Google][1] than from
     [Yahoo][2] or [MSN][3].
 
-    [1]: https://google.com/        "Google"
-    [2]: https://search.yahoo.com/  "Yahoo Search"
-    [3]: https://search.msn.com/    "MSN Search"
+    [1]: //google.com/        "Google"
+    [2]: //search.yahoo.com/  "Yahoo Search"
+    [3]: //search.msn.com/    "MSN Search"
 
 Output:
 
-    <p>I get 10 times more traffic from <a href="https://google.com/"
-    title="Google">Google</a> than from <a href="https://search.yahoo.com/"
-    title="Yahoo Search">Yahoo</a> or <a href="https://search.msn.com/"
+    <p>I get 10 times more traffic from <a href="//google.com/"
+    title="Google">Google</a> than from <a href="//search.yahoo.com/"
+    title="Yahoo Search">Yahoo</a> or <a href="//search.msn.com/"
     title="MSN Search">MSN</a>.</p>
 
 The title attribute is optional. Link names may contain letters,
@@ -236,12 +236,12 @@ numbers and spaces, but are *not* case sensitive:
     I start my morning with a cup of coffee and
     [The New York Times][NY Times].
 
-    [ny times]: https://www.nytimes.com/
+    [ny times]: //www.nytimes.com/
 
 Output:
 
     <p>I start my morning with a cup of coffee and
-    <a href="https://www.nytimes.com/">The New York Times</a>.</p>
+    <a href="//www.nytimes.com/">The New York Times</a>.</p>
 
 
 ### Images ###

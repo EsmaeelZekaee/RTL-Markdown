@@ -1,7 +1,7 @@
 /**
  * marked - a markdown parser
  * Copyright (c) 2011-2014, Christopher Jeffrey. (MIT Licensed)
- * https://github.com/markedjs/marked
+ * //github.com/markedjs/marked
  */
 
 ;(function(root) {
@@ -689,7 +689,7 @@ InlineLexer.prototype.output = function(src) {
       } else {
         text = escape(cap[0]);
         if (cap[1] === 'www.') {
-          href = 'https://' + text;
+          href = '//' + text;
         } else {
           href = text;
         }
@@ -1299,7 +1299,7 @@ function resolveUrl(base, href) {
   if (!baseUrls[' ' + base]) {
     // we can ignore everything in base after the last slash of its path component,
     // but we might need to add _that_
-    // https://tools.ietf.org/html/rfc3986#section-3
+    // //tools.ietf.org/html/rfc3986#section-3
     if (/^[^:]+:\/*[^/]*$/.test(base)) {
       baseUrls[' ' + base] = base + '/';
     } else {
@@ -1442,7 +1442,7 @@ function marked(src, opt, callback) {
     if (opt) opt = merge({}, marked.defaults, opt);
     return Parser.parse(Lexer.lex(src, opt), opt);
   } catch (e) {
-    e.message += '\nPlease report this to https://github.com/markedjs/marked.';
+    e.message += '\nPlease report this to //github.com/markedjs/marked.';
     if ((opt || marked.defaults).silent) {
       return '<p>An error occurred:</p><pre>'
         + escape(e.message + '', true)

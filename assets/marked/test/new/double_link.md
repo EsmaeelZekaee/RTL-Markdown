@@ -1,5 +1,5 @@
-<p>Already linked: <a href="https://example.com/">https://example.com/</a>.</p>
+<p>Already linked: <a href="//example.com/">//example.com/</a>.</p>
 
-Already linked: [https://example.com/](https://example.com/).
+Already linked: [//example.com/](//example.com/).
 
-Already linked: <a href="https://example.com/">**https://example.com/**</a>.
+Already linked: <a href="//example.com/">**//example.com/**</a>.

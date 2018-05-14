@@ -1,2 +1,2 @@
 hello world
-<https://example.com>
+<//example.com>

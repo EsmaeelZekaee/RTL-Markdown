@@ -1,4 +1,4 @@
-### Heading with a [link](https://github.com/)
+### Heading with a [link](//github.com/)
 
 ### Heading with some _italic text_
 

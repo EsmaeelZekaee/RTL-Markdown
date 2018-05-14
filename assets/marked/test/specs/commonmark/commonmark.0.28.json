@@ -2370,8 +2370,8 @@
   {
     "end_line": 5482,
     "section": "Backslash escapes",
-    "html": "<p><a href=\"https://example.com?find=%5C*\">https://example.com?find=\\*</a></p>\n",
-    "markdown": "<https://example.com?find=\\*>\n",
+    "html": "<p><a href=\"//example.com?find=%5C*\">//example.com?find=\\*</a></p>\n",
+    "markdown": "<//example.com?find=\\*>\n",
     "example": 297,
     "start_line": 5478
   },
@@ -2602,16 +2602,16 @@
   {
     "end_line": 5817,
     "section": "Code spans",
-    "html": "<p><code>&lt;https://foo.bar.</code>baz&gt;`</p>\n",
-    "markdown": "`<https://foo.bar.`baz>`\n",
+    "html": "<p><code>&lt;//foo.bar.</code>baz&gt;`</p>\n",
+    "markdown": "`<//foo.bar.`baz>`\n",
     "example": 326,
     "start_line": 5813
   },
   {
     "end_line": 5826,
     "section": "Code spans",
-    "html": "<p><a href=\"https://foo.bar.%60baz\">https://foo.bar.`baz</a>`</p>\n",
-    "markdown": "<https://foo.bar.`baz>`\n",
+    "html": "<p><a href=\"//foo.bar.%60baz\">//foo.bar.`baz</a>`</p>\n",
+    "markdown": "<//foo.bar.`baz>`\n",
     "example": 327,
     "start_line": 5822
   },
@@ -3650,16 +3650,16 @@
   {
     "end_line": 7157,
     "section": "Emphasis and strong emphasis",
-    "html": "<p>**a<a href=\"https://foo.bar/?q=**\">https://foo.bar/?q=**</a></p>\n",
-    "markdown": "**a<https://foo.bar/?q=**>\n",
+    "html": "<p>**a<a href=\"//foo.bar/?q=**\">//foo.bar/?q=**</a></p>\n",
+    "markdown": "**a<//foo.bar/?q=**>\n",
     "example": 457,
     "start_line": 7153
   },
   {
     "end_line": 7164,
     "section": "Emphasis and strong emphasis",
-    "html": "<p>__a<a href=\"https://foo.bar/?q=__\">https://foo.bar/?q=__</a></p>\n",
-    "markdown": "__a<https://foo.bar/?q=__>\n",
+    "html": "<p>__a<a href=\"//foo.bar/?q=__\">//foo.bar/?q=__</a></p>\n",
+    "markdown": "__a<//foo.bar/?q=__>\n",
     "example": 458,
     "start_line": 7160
   },
@@ -3770,8 +3770,8 @@
   {
     "end_line": 7363,
     "section": "Links",
-    "html": "<p><a href=\"#fragment\">link</a></p>\n<p><a href=\"https://example.com#fragment\">link</a></p>\n<p><a href=\"https://example.com?foo=3#frag\">link</a></p>\n",
-    "markdown": "[link](#fragment)\n\n[link](https://example.com#fragment)\n\n[link](https://example.com?foo=3#frag)\n",
+    "html": "<p><a href=\"#fragment\">link</a></p>\n<p><a href=\"//example.com#fragment\">link</a></p>\n<p><a href=\"//example.com?foo=3#frag\">link</a></p>\n",
+    "markdown": "[link](#fragment)\n\n[link](//example.com#fragment)\n\n[link](//example.com?foo=3#frag)\n",
     "example": 472,
     "start_line": 7353
   },
@@ -3970,8 +3970,8 @@
   {
     "end_line": 7607,
     "section": "Links",
-    "html": "<p>[foo<a href=\"https://example.com/?search=%5D(uri)\">https://example.com/?search=](uri)</a></p>\n",
-    "markdown": "[foo<https://example.com/?search=](uri)>\n",
+    "html": "<p>[foo<a href=\"//example.com/?search=%5D(uri)\">//example.com/?search=](uri)</a></p>\n",
+    "markdown": "[foo<//example.com/?search=](uri)>\n",
     "example": 497,
     "start_line": 7603
   },
@@ -4066,8 +4066,8 @@
   {
     "end_line": 7765,
     "section": "Links",
-    "html": "<p>[foo<a href=\"https://example.com/?search=%5D%5Bref%5D\">https://example.com/?search=][ref]</a></p>\n",
-    "markdown": "[foo<https://example.com/?search=][ref]>\n\n[ref]: /uri\n",
+    "html": "<p>[foo<a href=\"//example.com/?search=%5D%5Bref%5D\">//example.com/?search=][ref]</a></p>\n",
+    "markdown": "[foo<//example.com/?search=][ref]>\n\n[ref]: /uri\n",
     "example": 509,
     "start_line": 7759
   },
@@ -4514,16 +4514,16 @@
   {
     "end_line": 8435,
     "section": "Autolinks",
-    "html": "<p><a href=\"https://foo.bar.baz\">https://foo.bar.baz</a></p>\n",
-    "markdown": "<https://foo.bar.baz>\n",
+    "html": "<p><a href=\"//foo.bar.baz\">//foo.bar.baz</a></p>\n",
+    "markdown": "<//foo.bar.baz>\n",
     "example": 565,
     "start_line": 8431
   },
   {
     "end_line": 8442,
     "section": "Autolinks",
-    "html": "<p><a href=\"https://foo.bar.baz/test?q=hello&amp;id=22&amp;boolean\">https://foo.bar.baz/test?q=hello&amp;id=22&amp;boolean</a></p>\n",
-    "markdown": "<https://foo.bar.baz/test?q=hello&id=22&boolean>\n",
+    "html": "<p><a href=\"//foo.bar.baz/test?q=hello&amp;id=22&amp;boolean\">//foo.bar.baz/test?q=hello&amp;id=22&amp;boolean</a></p>\n",
+    "markdown": "<//foo.bar.baz/test?q=hello&id=22&boolean>\n",
     "example": 566,
     "start_line": 8438
   },
@@ -4562,8 +4562,8 @@
   {
     "end_line": 8484,
     "section": "Autolinks",
-    "html": "<p><a href=\"https://../\">https://../</a></p>\n",
-    "markdown": "<https://../>\n",
+    "html": "<p><a href=\"//../\">//../</a></p>\n",
+    "markdown": "<//../>\n",
     "example": 571,
     "start_line": 8480
   },
@@ -4578,16 +4578,16 @@
   {
     "end_line": 8500,
     "section": "Autolinks",
-    "html": "<p>&lt;https://foo.bar/baz bim&gt;</p>\n",
-    "markdown": "<https://foo.bar/baz bim>\n",
+    "html": "<p>&lt;//foo.bar/baz bim&gt;</p>\n",
+    "markdown": "<//foo.bar/baz bim>\n",
     "example": 573,
     "start_line": 8496
   },
   {
     "end_line": 8509,
     "section": "Autolinks",
-    "html": "<p><a href=\"https://example.com/%5C%5B%5C\">https://example.com/\\[\\</a></p>\n",
-    "markdown": "<https://example.com/\\[\\>\n",
+    "html": "<p><a href=\"//example.com/%5C%5B%5C\">//example.com/\\[\\</a></p>\n",
+    "markdown": "<//example.com/\\[\\>\n",
     "example": 574,
     "start_line": 8505
   },
@@ -4626,8 +4626,8 @@
   {
     "end_line": 8563,
     "section": "Autolinks",
-    "html": "<p>&lt; https://foo.bar &gt;</p>\n",
-    "markdown": "< https://foo.bar >\n",
+    "html": "<p>&lt; //foo.bar &gt;</p>\n",
+    "markdown": "< //foo.bar >\n",
     "example": 579,
     "start_line": 8559
   },
@@ -4650,8 +4650,8 @@
   {
     "end_line": 8584,
     "section": "Autolinks",
-    "html": "<p>https://example.com</p>\n",
-    "markdown": "https://example.com\n",
+    "html": "<p>//example.com</p>\n",
+    "markdown": "//example.com\n",
     "example": 582,
     "start_line": 8580
   },

@@ -1,6 +1,6 @@
 (function(){
 
-	var initUrl = 'https://el3zahaby.github.io/RTL-Markdown/initcontent.md';
+	var initUrl = '//el3zahaby.github.io/RTL-Markdown/initcontent.md';
 
 	$(document).ready(function(){
 		if(localStorage!='' && localStorage['content']!=null){

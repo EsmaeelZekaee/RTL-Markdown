@@ -79,50 +79,50 @@
   },
   {
     "section": "Autolinks",
-    "html": "<p><a href=\"https://www.commonmark.org\">www.commonmark.org</a></p>",
+    "html": "<p><a href=\"//www.commonmark.org\">www.commonmark.org</a></p>",
     "markdown": "www.commonmark.org",
     "example": 597
   },
   {
     "section": "Autolinks",
-    "html": "<p>Visit <a href=\"https://www.commonmark.org/help\">www.commonmark.org/help</a> for more information.</p>",
+    "html": "<p>Visit <a href=\"//www.commonmark.org/help\">www.commonmark.org/help</a> for more information.</p>",
     "markdown": "Visit www.commonmark.org/help for more information.",
     "example": 598
   },
   {
     "section": "Autolinks",
-    "html": "<p>Visit <a href=\"https://www.commonmark.org\">www.commonmark.org</a>.</p>\n<p>Visit <a href=\"https://www.commonmark.org/a.b\">www.commonmark.org/a.b</a>.</p>",
+    "html": "<p>Visit <a href=\"//www.commonmark.org\">www.commonmark.org</a>.</p>\n<p>Visit <a href=\"//www.commonmark.org/a.b\">www.commonmark.org/a.b</a>.</p>",
     "markdown": "Visit www.commonmark.org.\n\nVisit www.commonmark.org/a.b.",
     "example": 599
   },
   {
     "section": "Autolinks",
-    "html": "<p><a href=\"https://www.google.com/search?q=Markup+(business)\">www.google.com/search?q=Markup+(business)</a></p>\n<p>(<a href=\"https://www.google.com/search?q=Markup+(business)\">www.google.com/search?q=Markup+(business)</a>)</p>",
+    "html": "<p><a href=\"//www.google.com/search?q=Markup+(business)\">www.google.com/search?q=Markup+(business)</a></p>\n<p>(<a href=\"//www.google.com/search?q=Markup+(business)\">www.google.com/search?q=Markup+(business)</a>)</p>",
     "markdown": "www.google.com/search?q=Markup+(business)\n\n(www.google.com/search?q=Markup+(business))",
     "example": 600
   },
   {
     "section": "Autolinks",
-    "html": "<p><a href=\"https://www.google.com/search?q=(business))+ok\">www.google.com/search?q=(business))+ok</a></p>",
+    "html": "<p><a href=\"//www.google.com/search?q=(business))+ok\">www.google.com/search?q=(business))+ok</a></p>",
     "markdown": "www.google.com/search?q=(business))+ok",
     "example": 601
   },
   {
     "section": "Autolinks",
-    "html": "<p><a href=\"https://www.google.com/search?q=commonmark&amp;hl=en\">www.google.com/search?q=commonmark&amp;hl=en</a></p>\n<p><a href=\"https://www.google.com/search?q=commonmark\">www.google.com/search?q=commonmark</a>&amp;hl;</p>",
+    "html": "<p><a href=\"//www.google.com/search?q=commonmark&amp;hl=en\">www.google.com/search?q=commonmark&amp;hl=en</a></p>\n<p><a href=\"//www.google.com/search?q=commonmark\">www.google.com/search?q=commonmark</a>&amp;hl;</p>",
     "markdown": "www.google.com/search?q=commonmark&hl=en\n\nwww.google.com/search?q=commonmark&hl;",
     "example": 602
   },
   {
     "section": "Autolinks",
-    "html": "<p><a href=\"https://www.commonmark.org/he\">www.commonmark.org/he</a>&lt;lp</p>",
+    "html": "<p><a href=\"//www.commonmark.org/he\">www.commonmark.org/he</a>&lt;lp</p>",
     "markdown": "www.commonmark.org/he<lp",
     "example": 603
   },
   {
     "section": "Autolinks",
-    "html": "<p><a href=\"https://commonmark.org\">https://commonmark.org</a></p>\n<p>(Visit <a href=\"https://encrypted.google.com/search?q=Markup+(business)\">https://encrypted.google.com/search?q=Markup+(business)</a>)</p>\n<p>Anonymous FTP is available at <a href=\"ftp://foo.bar.baz\">ftp://foo.bar.baz</a>.</p>",
-    "markdown": "https://commonmark.org\n\n(Visit https://encrypted.google.com/search?q=Markup+(business))\n\nAnonymous FTP is available at ftp://foo.bar.baz.",
+    "html": "<p><a href=\"//commonmark.org\">//commonmark.org</a></p>\n<p>(Visit <a href=\"//encrypted.google.com/search?q=Markup+(business)\">//encrypted.google.com/search?q=Markup+(business)</a>)</p>\n<p>Anonymous FTP is available at <a href=\"ftp://foo.bar.baz\">ftp://foo.bar.baz</a>.</p>",
+    "markdown": "//commonmark.org\n\n(Visit //encrypted.google.com/search?q=Markup+(business))\n\nAnonymous FTP is available at ftp://foo.bar.baz.",
     "example": 604
   },
   {

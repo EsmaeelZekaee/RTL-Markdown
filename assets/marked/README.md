@@ -1,14 +1,14 @@
-<a href="https://marked.js.org">
-  <img width="60px" height="60px" src="https://marked.js.org/img/logo-black.svg" align="right" />
+<a href="//marked.js.org">
+  <img width="60px" height="60px" src="//marked.js.org/img/logo-black.svg" align="right" />
 </a>
 
 # Marked
 
-[![npm](https://img.shields.io/npm/v/marked.svg)](https://www.npmjs.com/package/marked)
-[![gzip size](https://img.badgesize.io/https://cdn.jsdelivr.net/npm/marked@0.3.19/marked.min.js?compression=gzip)](https://cdn.jsdelivr.net/npm/marked@0.3.19/marked.min.js)
-[![install size](https://packagephobia.now.sh/badge?p=marked@0.3.19)](https://packagephobia.now.sh/result?p=marked@0.3.19)
-[![downloads](https://img.shields.io/npm/dt/marked.svg)](https://www.npmjs.com/package/marked)
-[![travis](https://travis-ci.org/markedjs/marked.svg?branch=master)](https://travis-ci.org/markedjs/marked)
+[![npm](//img.shields.io/npm/v/marked.svg)](//www.npmjs.com/package/marked)
+[![gzip size](//img.badgesize.io///cdn.jsdelivr.net/npm/marked@0.3.19/marked.min.js?compression=gzip)](//cdn.jsdelivr.net/npm/marked@0.3.19/marked.min.js)
+[![install size](//packagephobia.now.sh/badge?p=marked@0.3.19)](//packagephobia.now.sh/result?p=marked@0.3.19)
+[![downloads](//img.shields.io/npm/dt/marked.svg)](//www.npmjs.com/package/marked)
+[![travis](//travis-ci.org/markedjs/marked.svg?branch=master)](//travis-ci.org/markedjs/marked)
 
 - ⚡ built for speed
 - ⬇️ low-level compiler for parsing markdown without caching or blocking for long periods of time
@@ -17,11 +17,11 @@
 
 ## Demo
 
-Checkout the [demo page](https://marked.js.org/demo/) to see marked in action ⛹️
+Checkout the [demo page](//marked.js.org/demo/) to see marked in action ⛹️
 
 ## Docs
 
-Our [documentation pages](https://marked.js.org) are also rendered using marked 💯
+Our [documentation pages](//marked.js.org) are also rendered using marked 💯
 
 ## Installation
 
@@ -52,7 +52,7 @@ $ cat hello.html
 </head>
 <body>
   <div id="content"></div>
-  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
   <script>
     document.getElementById('content').innerHTML =
       marked('# Marked in the browser\n\nRendered by **marked**.');

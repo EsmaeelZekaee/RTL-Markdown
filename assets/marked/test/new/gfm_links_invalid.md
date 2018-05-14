@@ -1,4 +1,4 @@
 ---
 sanitize: true
 ---
-This should not be linked: https://example.com/%ff
+This should not be linked: //example.com/%ff

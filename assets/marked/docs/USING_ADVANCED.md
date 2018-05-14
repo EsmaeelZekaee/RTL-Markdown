@@ -42,8 +42,8 @@ console.log(myMarked('I am using __markdown__.'));
 |Member      |Type      |Default  |Since    |Notes         |
 |:-----------|:---------|:--------|:--------|:-------------|
 |baseUrl     |`string`  |`null`   |???      |A prefix url for any relative link. |  
-|breaks      |`boolean` |`false`  |???      |If true, use GFM [hard](https://github.github.com/gfm/#hard-line-breaks) and [soft](https://github.github.com/gfm/#soft-line-breaks) line breaks. Requires `gfm` be `true`.|
-|gfm         |`boolean` |`true`   |???      |If true, use approved [GitHub Flavored Markdown (GFM) specification](https://github.github.com/gfm/).|
+|breaks      |`boolean` |`false`  |???      |If true, use GFM [hard](//github.github.com/gfm/#hard-line-breaks) and [soft](//github.github.com/gfm/#soft-line-breaks) line breaks. Requires `gfm` be `true`.|
+|gfm         |`boolean` |`true`   |???      |If true, use approved [GitHub Flavored Markdown (GFM) specification](//github.github.com/gfm/).|
 |headerIds   |`boolean` |`true`   |v0.4.0   |If true, include an `id` attribute when emitting headings (h1, h2, h3, etc).|
 |headerPrefix|`string`  |`''`     |???      |A string to prefix the `id` attribute when emitting headings (h1, h2, h3, etc).|
 |highlight   |`function`|`null`   |???      |A function to highlight code blocks, see <a href="#highlight">Asynchronous highlighting</a>.|
@@ -56,7 +56,7 @@ console.log(myMarked('I am using __markdown__.'));
 |silent      |`boolean` |`false`  |???      |???  |
 |smartlists  |`boolean` |`false`  |???      |If true, use smarter list behavior than those found in `markdown.pl`.|
 |smartypants |`boolean` |`false`  |???      |If true, use "smart" typographic punctuation for things like quotes and dashes.|
-|tables      |`boolean` |`true`   |???      |If true and `gfm` is true, use [GFM Tables extension](https://github.github.com/gfm/#tables-extension-).|
+|tables      |`boolean` |`true`   |???      |If true and `gfm` is true, use [GFM Tables extension](//github.github.com/gfm/#tables-extension-).|
 |xhtml       |`boolean` |`false`  |???      |If true, emit self-closing HTML tags for void elements (&lt;br/&gt;, &lt;img/&gt;, etc.) with a "/" as required by XHTML.|
 
 <h2 id="highlight">Asynchronous highlighting</h2>
