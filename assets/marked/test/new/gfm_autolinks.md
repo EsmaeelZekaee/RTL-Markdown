@@ -1,16 +1,16 @@
-link with . http://example.com/hello-world.
+link with . https://example.com/hello-world.
 
-link with ! http://example.com/hello-world!
+link with ! https://example.com/hello-world!
 
-link with : http://example.com/hello-world:
+link with : https://example.com/hello-world:
 
-link with , http://example.com/hello-world,
+link with , https://example.com/hello-world,
 
-link with ; http://example.com/hello-world;
+link with ; https://example.com/hello-world;
 
-link with ) http://example.com/hello-world)
+link with ) https://example.com/hello-world)
 
-link with nothing http://example.com/hello-world
+link with nothing https://example.com/hello-world
 
 ### Example 597
 
@@ -56,7 +56,7 @@ www.commonmark.org/he<lp
 
 ### Example 604
 
-http://commonmark.org
+https://commonmark.org
 
 (Visit https://encrypted.google.com/search?q=Markup+(business))
 

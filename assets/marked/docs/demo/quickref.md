@@ -3,7 +3,7 @@ Markdown Quick Reference
 
 This guide is a very brief overview, with examples, of the syntax that [Markdown] supports.  It is itself written in Markdown and you can copy the samples over to the left-hand pane for experimentation.  It's shown as *text* and not *rendered HTML*.
 
-[Markdown]: http://daringfireball.net/projects/markdown/
+[Markdown]: https://daringfireball.net/projects/markdown/
 
 
 Simple Text Formatting
@@ -55,20 +55,20 @@ This is H2
 Links
 =====
 
-Let's link to a few sites.  First, let's use the bare URL, like <http://www.github.com>.  Great for text, but ugly for HTML.
-Next is an inline link to [Google](http://www.google.com).  A little nicer.
+Let's link to a few sites.  First, let's use the bare URL, like <https://www.github.com>.  Great for text, but ugly for HTML.
+Next is an inline link to [Google](https://www.google.com).  A little nicer.
 This is a reference-style link to [Wikipedia] [1].
 Lastly, here's a pretty link to [Yahoo].  The reference-style and pretty links both automatically use the links defined below, but they could be defined *anywhere* in the markdown and are removed from the HTML.  The names are also case insensitive, so you can use [YaHoO] and have it link properly.
 
-[1]: http://www.wikipedia.org/
-[Yahoo]: http://www.yahoo.com/
+[1]: https://www.wikipedia.org/
+[Yahoo]: https://www.yahoo.com/
 
 Title attributes may be added to links by adding text after a link.
-This is the [inline link](http://www.bing.com "Bing") with a "Bing" title.
+This is the [inline link](https://www.bing.com "Bing") with a "Bing" title.
 You can also go to [W3C] [2] and maybe visit a [friend].
 
-[2]: http://w3c.org (The W3C puts out specs for web-based things)
-[Friend]: http://facebook.com/ "Facebook!"
+[2]: https://w3c.org (The W3C puts out specs for web-based things)
+[Friend]: https://facebook.com/ "Facebook!"
 
 Email addresses in plain text are not linked: test@example.com.
 Email addresses wrapped in angle brackets are linked: <test@example.com>.
@@ -152,9 +152,9 @@ Images
 
 Images work exactly like links, but they have exclamation points in front.  They work with references and titles too.
 
-![Google Logo](http://www.google.com/images/errors/logo_sm.gif) and ![Happy].
+![Google Logo](https://www.google.com/images/errors/logo_sm.gif) and ![Happy].
 
-[Happy]: http://www.wpclipart.com/smiley/simple_smiley/smiley_face_simple_green_small.png ("Smiley face")
+[Happy]: https://www.wpclipart.com/smiley/simple_smiley/smiley_face_simple_green_small.png ("Smiley face")
 
 
 Inline HTML

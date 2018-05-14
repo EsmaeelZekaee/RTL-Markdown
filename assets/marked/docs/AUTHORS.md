@@ -42,7 +42,7 @@ To be removed: please let us know or submit a PR.
 
 Committers are contributors who also have the responsibility, privilege, some might even say burden of being able to review and merge contributions (just usually not their own).
 
-A note on "decision making authority". This is related to submitting PRs and the [advice process](http://www.reinventingorganizationswiki.com/Decision_Making). The person marked as having decision making authority over a certain area should be sought for advice in that area before committing to a course of action.
+A note on "decision making authority". This is related to submitting PRs and the [advice process](https://www.reinventingorganizationswiki.com/Decision_Making). The person marked as having decision making authority over a certain area should be sought for advice in that area before committing to a course of action.
 
 |Name           |GitHub handle   |Decision making                          |Badges of honor (tag for questions)  |
 |:--------------|:---------------|:----------------------------------------|:------------------------------------|

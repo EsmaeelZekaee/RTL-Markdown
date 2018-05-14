@@ -67,9 +67,9 @@ However, if you have ANY unbalanced parentheses, you need to escape or use the <
 
 [link](#fragment)
 
-[link](http://example.com#fragment)
+[link](https://example.com#fragment)
 
-[link](http://example.com?foo=3#frag)
+[link](https://example.com?foo=3#frag)
 
 ### Example 473
 

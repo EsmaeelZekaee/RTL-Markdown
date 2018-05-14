@@ -1,10 +1,10 @@
 ---
-baseUrl: "http://example.com/base/"
+baseUrl: "https://example.com/base/"
 ---
 # Absolutization of RFC 3986 URIs
 
 ## Absolute URI
-[![section 4.3](http://example.com/logo)](http://example.com/)
+[![section 4.3](https://example.com/logo)](https://example.com/)
 
 ## Network-path reference
 [![section 4.2](//example.com/logo)](//example.com/)

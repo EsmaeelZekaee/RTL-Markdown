@@ -33,4 +33,4 @@ Ready to start writing?  Either start changing stuff on the left or
 [clear everything](?text=) with a simple click.
 
 [Marked]: https://github.com/markedjs/marked/
-[Markdown]: http://daringfireball.net/projects/markdown/
+[Markdown]: https://daringfireball.net/projects/markdown/

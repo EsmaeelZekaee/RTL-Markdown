@@ -9,7 +9,7 @@
   "repository": "git://github.com/markedjs/marked.git",
   "homepage": "https://marked.js.org",
   "bugs": {
-    "url": "http://github.com/markedjs/marked/issues"
+    "url": "https://github.com/markedjs/marked/issues"
   },
   "license": "MIT",
   "keywords": [
